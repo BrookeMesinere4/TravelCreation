@@ -29,6 +29,5 @@ The API "spRoomGetAvailabilityByDateRange" was created to get the availability o
 The API "spHotelSearchByRadius" was used to get all hotels within a radius given by a user. This API was created using the hotel table. Then, I created the attributes @longitude, @latitude, and @radius. I then used the distance formula to find the radius. The code then checks for hotels less than or equal to the radius. This procedure helps users find hotels within a particular area and is essential so users can find specific locations. The input is the latitude and longitude the user is looking for. The output is the the hotels in given radius.
 
 ## References
-We followed our own notes and examples that we got from lectures in this assignment. We also had help from ChatGPT to create our mock data. The prompt used in ChatGPT is as followed:
-"Can you write me a protected query using SQL that adds a hotel review to a website?"
+We followed our own notes and examples that we got from lectures in this assignment. We also had help from ChatGPT to convert SQL code to APIs. The prompt used in ChatGPT is as followed:
 "I'm converting SQL server procedures to APIs in ASP.NET Core 8. I need to convert this table to a class. Give me the code (Followed by sql code for each table)."
