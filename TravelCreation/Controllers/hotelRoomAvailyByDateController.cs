@@ -6,10 +6,10 @@ namespace TravelCreation.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class HotelsController : Controller
+    public class hotelRoomAvailyByDateController : Controller
     {
         private readonly IHotelService hotelService;
-        public HotelsController(IHotelService hotelService)
+        public hotelRoomAvailyByDateController(IHotelService hotelService)
         {
             this.hotelService = hotelService;
         }
